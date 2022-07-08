@@ -51,6 +51,39 @@ body {
   display: none;
   border-radius: 8px 0 0 8px;
 }
+
+.preview-card-content {
+  padding: 24px;
+  text-align: left;
+  flex: 2 1 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.kicker {
+  text-transform: uppercase;
+  margin: 0;
+  padding: 0;
+  font-size: 13px;
+  letter-spacing: 4px;
+}
+
+.headline {
+  font-family: 'Fraunces', serif;
+  font-size: 31px;
+  color: var(--dark-blue);
+  margin: 13px 0;
+  letter-spacing: -1px;
+  line-height: 31px;
+}
+
+.product-text {
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 22px;
+}
+
 }
 
 
