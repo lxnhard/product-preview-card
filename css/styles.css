@@ -18,6 +18,23 @@
 
 .image--desktop {
   display: block;
+.preview-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-content: start;
+  width: 91.5%;
+  max-width: 375px;
+  max-height: 611px;
+  background-color: hsl(0, 0%, 100%);
+  margin: 0 auto;
+  border-radius: 8px 8px;
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
 }
 
 .image--mobile {
