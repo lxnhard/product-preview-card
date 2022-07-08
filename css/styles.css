@@ -148,5 +148,19 @@ body {
     display: none;
   }
 
+  .preview-card-content {
+    padding: 32px;
+  }
+
+  .kicker {
+    margin-bottom: 24px;
+  }
+
+  .headline {
+    margin-bottom: 24px;
+  }
+
+  .product-text {
+    font-size: 14px;
   }
 }
