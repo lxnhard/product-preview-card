@@ -1,0 +1,24 @@
+* {
+  box-sizing: border-box;
+}
+.image {
+  max-width: 100%;
+}
+
+.image--desktop {
+  display: block;
+}
+
+.image--mobile {
+  display: none;
+}
+
+
+@media all and (max-width: 576px) {
+  .image--desktop {
+    display: none;
+  }
+  .image--mobile {
+    display: block;
+  }
+}
