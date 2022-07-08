@@ -163,4 +163,9 @@ body {
   .product-text {
     font-size: 14px;
   }
+
+  .price-new {
+    font-size: 30px;
+    margin-right: 20px;
+  }
 }
