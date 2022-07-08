@@ -12,12 +12,11 @@
 * {
   box-sizing: border-box;
 }
-.image {
-  max-width: 100%;
+
 }
 
-.image--desktop {
-  display: block;
+
+
 .preview-card {
   display: flex;
   flex-direction: column;
@@ -35,10 +34,19 @@
   left: 50%;
   transform: translate(-50%, -50%);
 }
+
+.image {
+  width: 100%;
 }
 
 .image--mobile {
+  border-radius: 8px 8px 0 0;
+}
+
+.image--desktop {
   display: none;
+  border-radius: 8px 0 0 8px;
+}
 }
 
 
