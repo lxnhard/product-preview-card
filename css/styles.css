@@ -141,9 +141,12 @@ body {
   }
 
   .image--desktop {
+    display: inline-block;
+  }
+
+  .image--mobile {
     display: none;
   }
-  .image--mobile {
-    display: block;
+
   }
 }
