@@ -104,7 +104,32 @@ body {
   font-size: 13px;
 }
 
-@media all and (max-width: 576px) {
+.button-add {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 48px;
+  width: 100%;
+  bottom: 10px;
+  background-color: var(--cyan);
+  color: var(--white);
+  border: none;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+.button-add:hover,
+.button-add:active,
+.button-add:focus {
+  background-color: var(--cyan-dark-shade);
+  cursor: pointer;
+}
+
+.button-add img {
+  display: inline-block;
+  height: 16px;
+  padding-right: 12px;
+}
   .image--desktop {
     display: none;
   }
